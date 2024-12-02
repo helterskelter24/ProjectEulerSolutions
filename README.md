@@ -16,4 +16,7 @@ This repository contains solutions to various Project Euler problems. The soluti
 4. **Collaborative Growth**  
    This repository is open to modifications that improve readability, correctness, or simplicity.
 
+5. **Usage of ChatGPT**  
+   ChatGPT has been used as a tool for formatting my code and providing explanations for some concepts. It was not used in creating the solutions themselves. Examples include clarifying proofs, explaining how algorithms work, and offering insights into why certain approaches are taken.
+
 Happy solving!
