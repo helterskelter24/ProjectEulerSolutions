@@ -1,1 +1,23 @@
+Pseudocode: Finding the Largest Prime Factor
 
+Function TrialDivision(n):
+    Input: A number n
+    Output: List of prime factors of n
+    Steps:
+        1. Initialize an empty list 'factorization'.
+        2. For each integer d from 2 to sqrt(n):
+            a. While d divides n:
+                i. Append d to 'factorization'.
+                ii. Update n as n ÷ d.
+        3. If n > 1, append n (a prime factor) to 'factorization'.
+        4. Return 'factorization'.
+
+Main Procedure:
+    1. Compute the prime factorization of 600851475143 using TrialDivision.
+    2. Store the result in list 'f'.
+    3. Find the largest number in 'f' and store it in variable 'a'.
+    4. Print 'a' (the largest prime factor).
+
+Notes:
+1. Reference used: [CP-Algorithms](https://cp-algorithms.com/algebra/factorization.html).
+2. The function efficiently computes the prime factorization of a number. The solution finds the largest factor, which, being part of the prime factorization, is also the largest prime divisor.
