@@ -21,3 +21,4 @@ Main Procedure:
 Notes:
 1. Reference used: [CP-Algorithms](https://cp-algorithms.com/algebra/factorization.html).
 2. The function efficiently computes the prime factorization of a number. The solution finds the largest factor, which, being part of the prime factorization, is also the largest prime divisor.
+3. The time complexity of this algorithm is O(root(n)) as explained in the reference I've used.
